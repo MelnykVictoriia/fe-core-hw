@@ -1,0 +1,28 @@
+* {
+    box-sizing: content-box;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.sub-title,
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.title,
+.sub-title,
+li {
+    color: #263555;
+}
+
+p {
+    color: #4e5050;
+    font-size: 12px;
+}
+
+ul {
+    list-style-image: url(../img/list-image.png);
+}
