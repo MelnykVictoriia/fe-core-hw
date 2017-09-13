@@ -43,6 +43,8 @@ img {
 p {
     color: #4e5050;
     font-size: 12px;
+    text-align: justify;
+    line-height: 16px;
 }
 
 ul {
