@@ -21,6 +21,9 @@
 
 img {
     margin-top: 32px;
+    display: block;
+    width: 408px;
+    background-size: cover;
 }
 
 .paragraph {
