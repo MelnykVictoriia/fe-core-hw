@@ -1,0 +1,36 @@
+@import 'base.css';
+.wrapper {
+    width: 1024px;
+    margin: 30px auto;
+}
+
+
+/*Task-5 target  */
+
+:target {
+    color: red;
+}
+
+.target-list {
+    margin-left: 16px;
+}
+
+
+/* Task-6 float  */
+
+.main {
+    background-color: green;
+    width: 640px;
+    float: left;
+}
+
+.aside {
+    background-color: yellow;
+    width: 384px;
+    float: right;
+}
+
+.main,
+.aside {
+    height: 400px;
+}

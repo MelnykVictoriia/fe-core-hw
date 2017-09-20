@@ -1,0 +1,93 @@
+@import 'base.css';
+.wrapper {
+    width: 1024px;
+    margin: 30px auto;
+}
+
+
+/* Task2  */
+
+.list-link {
+    text-decoration: none;
+    color: #263555;
+}
+
+.list-link::before {
+    content: "\2192";
+    padding-right: 10px;
+    color: #38afe5;
+}
+
+.list-before {
+    list-style-type: none;
+    columns: 2;
+}
+
+.list-item {
+    margin-bottom: 20px;
+}
+
+.list-item:last-child {
+    margin-bottom: 0;
+}
+
+
+/*task-3  */
+
+.nth-list {
+    margin-left: 20px;
+}
+
+.nth-list-item:nth-of-type(3n+1) {
+    background-color: #fff;
+}
+
+.nth-list-item:nth-of-type(3n+2) {
+    background-color: #ddd;
+}
+
+.nth-list-item:nth-of-type(3n+3) {
+    background-color: #bbb;
+}
+
+.nth-list-link {
+    color: #000;
+}
+
+
+/* Task-4 hover  */
+
+.wrapper-hover {
+    height: 142px;
+    width: 1024px;
+    background-image: url(../img/untitled-1.png);
+}
+
+.hover-list {
+    list-style-type: none;
+    padding: 55px 98px;
+}
+
+.hover-list-item {
+    display: inline-block;
+    margin-right: 36px;
+}
+
+.hover-list-item:last-child {
+    margin-right: 0;
+}
+
+.hover-list-link {
+    font-size: 28px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.hover-list-link:hover {
+    color: #263555;
+}
+
+#current {
+    color: #263555;
+}

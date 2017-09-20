@@ -1,0 +1,84 @@
+@import 'base.css';
+.wrapper {
+    outline: 1px solid black;
+    width: 1024px;
+    margin: 30px auto;
+    padding: 120px 60px;
+}
+
+.main {
+    width: 640px;
+    float: left;
+}
+
+.aside {
+    width: 206px;
+    float: right;
+}
+
+.main-title,
+.aside-title {
+    margin-bottom: 44px;
+    text-transform: uppercase;
+}
+
+.main-image {
+    margin: 0 24px 10px 0;
+    float: left;
+}
+
+.main-sub-title,
+.main-text {
+    width: 162px;
+}
+
+.main-sub-title,
+.main-text,
+.text {
+    float: right;
+}
+
+.main-sub-title,
+.sub-title-list {
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: #263555;
+}
+
+.main-text {
+    margin-bottom: 14px;
+}
+
+.main-text,
+.text,
+.principles-text {
+    font-size: 13px;
+    color: #4e5050;
+}
+
+.aside-list {
+    list-style-type: none;
+    counter-reset: list;
+}
+
+.sub-title-list::before {
+    counter-increment: list;
+    content: counter(list);
+    border-radius: 50%;
+    padding: 5px 10px;
+    background-color: #38afe5;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.principles-text {
+    margin-left: 38px;
+}
+
+.aside-item {
+    margin-bottom: 32px;
+}
+
+.aside-item:last-child {
+    margin-bottom: 0;
+}
