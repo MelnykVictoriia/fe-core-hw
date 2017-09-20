@@ -62,6 +62,7 @@
 }
 
 .sub-title-list::before {
+    display: inline-block;
     counter-increment: list;
     content: counter(list);
     border-radius: 50%;

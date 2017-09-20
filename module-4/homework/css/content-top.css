@@ -1,0 +1,83 @@
+.content-top {
+    border-bottom: 1px solid #dedbdb;
+    padding-bottom: 44px;
+    margin-bottom: 58px;
+}
+
+.profile-article {
+    width: 642px;
+    float: left;
+    margin-right: 50px;
+}
+
+.profile-title,
+.principles-title {
+    margin-bottom: 48px;
+    text-transform: uppercase;
+    color: #263555;
+}
+
+.profile-image {
+    float: left;
+    margin: 0 20px 22px 0;
+}
+
+.sub-title,
+.profile-paragraph {
+    float: right;
+    width: 168px;
+}
+
+.sub-title,
+.sub-title-list {
+    margin-bottom: 14px;
+    color: #263555;
+    font-size: 15px;
+}
+
+.profile-text {
+    float: left;
+}
+
+.profile-paragraph,
+.profile-text,
+.principles-text,
+.offer-text,
+.autor-post {
+    font-size: 13px;
+    color: #4e5050;
+}
+
+.principles-article {
+    float: right;
+    width: 212px;
+}
+
+.principles-list {
+    list-style-type: none;
+    counter-reset: list;
+}
+
+.principles-item {
+    margin-bottom: 30px;
+}
+
+.principles-item:last-child {
+    margin-bottom: 0;
+}
+
+.sub-title-list::before {
+    display: inline-block;
+    counter-increment: list;
+    content: counter(list);
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #38afe5;
+    color: #fff;
+    margin-right: 10px;
+    font-size: 13px;
+}
+
+.principles-text {
+    margin-left: 38px;
+}
