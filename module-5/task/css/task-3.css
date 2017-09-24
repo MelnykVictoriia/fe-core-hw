@@ -1,0 +1,43 @@
+.slider {
+    width: 1024px;
+    margin: 30px auto;
+}
+
+.link {
+    display: inline-block;
+    width: 45px;
+    height: 90px;
+    background-color: #38aff5;
+}
+
+.link:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.left {
+    border-radius: 180px 0 0 180px;
+    margin-right: -4px;
+}
+
+.right {
+    border-radius: 0 180px 180px 0;
+}
+
+.left::after {
+    position: relative;
+    left: 25px;
+    top: 38px;
+    display: inline-block;
+    content: '\2190';
+    color: #fff;
+}
+
+.right::before {
+    position: relative;
+    left: 6px;
+    top: 38px;
+    display: inline-block;
+    content: '\2192';
+    color: #fff;
+}

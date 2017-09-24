@@ -1,0 +1,29 @@
+@import 'logo.css';
+@import 'menu.css';
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #99ccff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 102px 96px 102px 100px;
+    outline: 1px solid black;
+}
+
+header {
+    position: relative;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}

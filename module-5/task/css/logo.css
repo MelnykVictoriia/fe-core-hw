@@ -1,0 +1,17 @@
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 42px 26px;
+    width: 140px;
+    height: 140px;
+    text-transform: uppercase;
+    color: #263555;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'dorsa', sans-serif;
+}
