@@ -1,0 +1,52 @@
+@import url('base.css');
+.wrapper {
+    width: 64rem;
+    margin: 6.25rem auto;
+    padding: 6.25rem 3.75rem;
+    background-color: #fff;
+    display: flex;
+}
+
+.sidebar {
+    margin-left: auto;
+}
+
+.list-title {
+    margin-bottom: 2.75rem;
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 2rem;
+}
+
+.list-title,
+.list-link {
+    color: #263555;
+}
+
+.categories-list {
+    margin-bottom: 3.375rem;
+}
+
+.categories-list,
+.archive-list {
+    list-style-type: none;
+}
+
+.list-item {
+    margin-bottom: 1.125rem;
+}
+
+.categories-list>.list-item:last-child,
+.archive-list>.list-item:last-child {
+    margin-bottom: 0;
+}
+
+.list-item::before {
+    content: '\2192';
+    color: #71c6ec;
+    margin-right: 0.625rem;
+}
+
+.list-link {
+    text-decoration: none;
+}

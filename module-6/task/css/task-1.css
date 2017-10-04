@@ -1,0 +1,36 @@
+@import url('base.css');
+ul {
+    list-style-type: none;
+    background-color: bisque;
+}
+
+li {
+    display: inline-block;
+}
+
+.link {
+    display: block;
+    background-color: black;
+    width: 3.125rem;
+    height: 3.125rem;
+}
+
+.link:hover {
+    filter: opacity(50%);
+}
+
+.bg-social_1 {
+    background: url('../img/css_sprites.png') -0.625rem -0.625rem;
+}
+
+.bg-social_2 {
+    background: url('../img/css_sprites.png') -4.375rem -0.625rem;
+}
+
+.bg-social_3 {
+    background: url('../img/css_sprites.png') -0.625rem -4.375rem;
+}
+
+.bg-social_4 {
+    background: url('../img/css_sprites.png') -4.375rem -4.375rem;
+}
