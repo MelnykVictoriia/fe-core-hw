@@ -12,6 +12,7 @@ li {
     display: block;
     width: 3.125rem;
     height: 3.125rem;
+    background-image: url('../img/css_sprites.png');
 }
 
 .link:hover {
@@ -19,17 +20,17 @@ li {
 }
 
 .bg-social_1 {
-    background: url('../img/css_sprites.png') -0.625rem -0.625rem;
+    background-position: -0.625rem -0.625rem;
 }
 
 .bg-social_2 {
-    background: url('../img/css_sprites.png') -4.375rem -0.625rem;
+    background-position: -4.375rem -0.625rem;
 }
 
 .bg-social_3 {
-    background: url('../img/css_sprites.png') -0.625rem -4.375rem;
+    background-position: -0.625rem -4.375rem;
 }
 
 .bg-social_4 {
-    background: url('../img/css_sprites.png') -4.375rem -4.375rem;
+    background-position: -4.375rem -4.375rem;
 }
