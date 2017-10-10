@@ -1,0 +1,35 @@
+.content {
+    padding: 6.25rem 3.75rem;
+    background-color: #fff;
+}
+
+.title {
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 2rem;
+    color: #263555;
+}
+
+.section-body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-link {
+    flex-basis: 32%;
+    margin-bottom: 2.5rem;
+}
+
+.gallery-link:hover>.zoom {
+    display: block;
+}
+
+.zoom {
+    display: none;
+    background: url(../img/zoom.png) no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
