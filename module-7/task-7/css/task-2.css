@@ -1,11 +1,17 @@
+ ul {
+     list-style-type: none;
+ }
+ 
  select {
-     -webkit-appearance: button;
-     -webkit-border-radius: 0rem;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
      background-color: #fcfafa;
      background-image: url(http://i62.tinypic.com/15xvbd5.png);
      background-position: 97% center;
      background-repeat: no-repeat;
      border: 0.125rem solid #dedbdb;
+     border-radius: 0rem;
      color: #868f8f;
      margin-bottom: 1.5625rem;
      padding: 0.3125rem 0.625rem;

@@ -1,4 +1,4 @@
-.table {
+.contacts {
     flex-basis: 23%;
 }
 
@@ -25,6 +25,6 @@ a {
     padding-left: 1.875rem;
 }
 
-.mail span {
+.mail {
     color: #fa7e7e;
 }
