@@ -1,0 +1,30 @@
+.table {
+    flex-basis: 23%;
+}
+
+table {
+    font-size: 0.8125rem;
+    color: #666565;
+    border-spacing: 0px;
+    line-height: 1.1875rem;
+}
+
+caption {
+    margin-bottom: 1.5625rem;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.top-table {
+    margin-bottom: 3.125rem;
+}
+
+a {
+    text-decoration: none;
+    color: #666565;
+    padding-left: 1.875rem;
+}
+
+.mail span {
+    color: #fa7e7e;
+}
