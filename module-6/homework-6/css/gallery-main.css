@@ -22,6 +22,12 @@
     margin-bottom: 2.5rem;
 }
 
+.gallery-link:last-child,
+.gallery-link:nth-of-type(7),
+.gallery-link:nth-of-type(8) {
+    margin-bottom: 0rem;
+}
+
 .gallery-link:hover>.zoom {
     display: block;
 }
@@ -32,4 +38,10 @@
     width: 100%;
     height: 100%;
     position: absolute;
+}
+
+.gallery-image {
+    display: block;
+    width: 100%;
+    height: auto;
 }

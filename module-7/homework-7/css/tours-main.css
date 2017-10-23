@@ -1,0 +1,136 @@
+.tours-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tours {
+    flex-basis: 65%;
+}
+
+.tour-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tour-card-section {
+    flex-basis: 49%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 2.25rem;
+}
+
+.tour-card-section:last-child,
+.tour-card-section:nth-of-type(5) {
+    margin-bottom: 0rem;
+}
+
+.tour-card-image {
+    flex-basis: 48%;
+    display: block;
+}
+
+.tour-card-desc {
+    flex-basis: 44%;
+    line-height: 0.95rem;
+}
+
+.tour-card-title {
+    font-size: 0.75rem;
+    color: #263555;
+}
+
+.tour-card-text {
+    font-size: 0.625rem;
+    color: #4e5050;
+}
+
+.tour-price {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.8125rem;
+    color: #38afe5;
+}
+
+.tour-card-title,
+.tour-card-text {
+    margin-bottom: 1rem;
+}
+
+.tour-card-text:last-of-type {
+    margin-bottom: 2rem;
+}
+
+.tour-card-buttom {
+    padding: 0.3125rem 0.625rem;
+    background-color: #fbf6f9;
+    border: 0.0625rem solid #c3bcbc;
+    border-radius: 0.25rem;
+    font-size: 0.6875rem;
+    color: #000;
+}
+
+.forms {
+    flex-basis: 23%;
+}
+
+.search-form-list {
+    list-style-type: none;
+}
+
+select {
+    -webkit-appearance: none;
+    background-color: #fcfafa;
+    background-image: url(http://i62.tinypic.com/15xvbd5.png);
+    background-position: 97% center;
+    background-repeat: no-repeat;
+    border: 0.125rem solid #dedbdb;
+    border-radius: 0rem;
+    color: #868f8f;
+    margin-bottom: 1.5625rem;
+    padding: 0.3125rem 0.625rem;
+    width: 100%;
+    font-size: 0.625rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.select-form {
+    margin-bottom: 0.9375rem;
+}
+
+label {
+    margin-bottom: 0.625rem;
+    font-size: 0.625rem;
+    color: #4e5050;
+}
+
+label,
+.form-button {
+    display: block;
+}
+
+.form-title,
+.tours-title {
+    margin-bottom: 3.125rem;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #263555;
+}
+
+.form-sub-title {
+    margin-bottom: 0.625rem;
+    text-transform: capitalize;
+    font-size: 0.625rem;
+    color: #38afe5;
+}
+
+.form-button {
+    border: 0.0625rem solid #b1aaaa;
+    background-color: #fcfafa;
+    border-radius: 0.1875rem;
+    padding: 0.25rem 0.625rem;
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+}

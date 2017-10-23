@@ -1,0 +1,19 @@
+.to-top-buttom {
+    position: fixed;
+    bottom: 3.25rem;
+    right: 21.25rem;
+    display: block;
+    height: 1.875rem;
+    width: 1.875rem;
+    background-color: #38aff5;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.to-top-buttom::before {
+    position: relative;
+    top: 0.3125rem;
+    left: 0.625rem;
+    content: '\22C0';
+    color: #fff;
+}

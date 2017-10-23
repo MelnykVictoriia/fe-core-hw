@@ -1,0 +1,142 @@
+.slider {
+    position: relative;
+    margin-bottom: 3.75rem;
+}
+
+.slider-image {
+    max-width: 100%;
+    display: block;
+}
+
+.title {
+    position: absolute;
+    top: 13.5rem;
+}
+
+.sub-title {
+    padding: 1.25rem 1rem;
+    width: 14rem;
+    color: #263555;
+    background-color: #fff;
+}
+
+.sub-title,
+.main-title,
+.card-title {
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.main-title {
+    padding: 1rem;
+    color: #fff;
+    background-color: #38aff5;
+    width: 17.25rem;
+}
+
+.slider-link {
+    position: absolute;
+    bottom: 2.5rem;
+    left: 2.5rem;
+}
+
+.link {
+    float: left;
+    text-align: center;
+    line-height: 5.625rem;
+    color: #ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+    width: 2.8125rem;
+    height: 5.625rem;
+    background-color: #38aff5;
+}
+
+.link:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.left {
+    border-radius: 100% 0 0 100% / 50% 0 0 50%;
+}
+
+.right {
+    border-radius: 0 100% 100% 0 / 0 50% 50% 0;
+}
+
+.left::after {
+    content: '\2190';
+}
+
+.right::before {
+    content: '\2192';
+}
+
+.cards {
+    margin-bottom: 9.375rem;
+}
+
+.card-title {
+    color: #263555;
+    margin-bottom: 3.125rem;
+}
+
+.destinations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.destination {
+    flex-basis: 32%;
+    position: relative;
+    overflow: hidden;
+}
+
+.destination img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.destination:hover>.destination-info {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.destination-info {
+    display: block;
+    position: absolute;
+    background-color: #263555;
+    color: #fff;
+    width: 50%;
+    height: 100%;
+    padding: 1.125rem 0.5rem;
+    transform: translateX(-100%);
+    transition: transform .3s ease;
+    opacity: 0;
+}
+
+.info-title {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.info-text {
+    line-height: 0.9375rem;
+    font-size: 0.625rem;
+    margin-bottom: 1.6875rem;
+}
+
+.info-button {
+    padding: 0.3125rem 0.75rem;
+    font-size: 0, 75rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
+.action {
+    text-align: right;
+}

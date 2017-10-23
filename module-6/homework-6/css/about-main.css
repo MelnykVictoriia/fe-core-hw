@@ -82,8 +82,7 @@
 }
 
 .offer-article {
-    width: 71%;
-    margin-right: 3.125rem;
+    flex-basis: 71%;
 }
 
 .offer-title {
@@ -120,7 +119,7 @@
 }
 
 .testimotial {
-    width: 22%;
+    flex-basis: 22%;
 }
 
 .testmotial-title {

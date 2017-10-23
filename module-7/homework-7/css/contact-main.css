@@ -1,0 +1,102 @@
+.contact-wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map {
+    flex-basis: 65%;
+}
+
+.stay-in-touch {
+    flex-basis: 72%;
+}
+
+.contact-title {
+    margin-bottom: 3.125rem;
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 2rem;
+}
+
+.telefone-contact-tables {
+    flex-basis: 23%;
+}
+
+table {
+    font-size: 0.8125rem;
+    color: #666565;
+    border-spacing: 0rem;
+    line-height: 1.1875rem;
+}
+
+caption {
+    margin-bottom: 1.5625rem;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.top-table {
+    margin-bottom: 3.125rem;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #666565;
+    padding-left: 1.875rem;
+}
+
+.mail {
+    color: #fa7e7e;
+}
+
+.contact-us-form {
+    flex-basis: 23%;
+}
+
+.contact-form {
+    text-align: right;
+}
+
+.contact-form-input,
+.contact-form-textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.125rem;
+    padding: 0.4375rem;
+    text-transform: uppercase;
+}
+
+.contact-form-input,
+.contact-form-textarea,
+.contact-form-button {
+    border: 0.0625rem solid #b1aaaa;
+    background-color: #fcfafa;
+}
+
+ ::-webkit-input-placeholder,
+ ::-webkit-textarea-placeholder {
+    font-size: 0.8125rem;
+}
+
+ ::-webkit-input-placeholder,
+ ::-webkit-textarea-placeholder,
+.contact-form-button {
+    color: #263555;
+}
+
+.contact-form-textarea {
+    resize: none;
+}
+
+.contact-form-button {
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    border-radius: 0.1875rem;
+    font-size: 0.9375rem;
+}

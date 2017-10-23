@@ -18,23 +18,23 @@
 }
 
 .footer-link,
-.contacts {
+.footer-contact-info {
     font-family: 'open sans', sans-serif;
     font-size: 1rem;
     color: #fff;
     text-transform: uppercase;
 }
 
-.contacts {
+.footer-contact-info {
     flex-basis: 17%;
 }
 
-.contact {
+.footer-contact {
     display: block;
     font-size: 0.75rem;
 }
 
-.contact:last-child {
+.footer-contactt:last-child {
     text-transform: lowercase;
 }
 
