@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-width: 480px;
+    max-width: 100%;
+    margin: auto;
+    background-color: grey;
+    padding: 10px;
+}
+
+.header {
+    height: 200px;
+    background-color: red;
+}
+
+.header,
+.sidebar {
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    height: 200px;
+    background-color: greenyellow;
+}
+
+.content {
+    height: 100px;
+    background-color: skyblue;
+}
+
+@media (min-width: 768px) {
+    .content-wrapper {
+        display: flex;
+    }
+    .sidebar {
+        flex-basis: 30%;
+        margin-right: 1%;
+        height: 400px;
+    }
+    .content {
+        flex-basis: 69%;
+        height: 400px;
+    }
+}
