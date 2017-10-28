@@ -1,0 +1,42 @@
+.to-top-buttom {
+    position: sticky;
+    bottom: 2.25rem;
+    margin-left: calc(100% - 1.75rem);
+    display: block;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #38aff5;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.to-top-buttom::before {
+    position: relative;
+    top: 0.125rem;
+    left: 0.4375rem;
+    content: '\22C0';
+    color: #fff;
+}
+
+@media (min-width: 768px) {
+    .to-top-buttom {
+        margin-left: calc(100% - 2.1rem);
+        height: 1.625rem;
+        width: 1.625rem;
+    }
+    .to-top-buttom::before {
+        left: 0.5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .to-top-buttom {
+        margin-left: calc(100% - 2.75rem);
+        height: 1.875rem;
+        width: 1.875rem;
+    }
+    .to-top-buttom::before {
+        top: 0.3rem;
+        left: 0.6rem;
+    }
+}

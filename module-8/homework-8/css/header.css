@@ -1,0 +1,155 @@
+.header {
+    padding: 1.5rem 7.3125rem 3.875rem 8.8125rem;
+}
+
+.logo {
+    display: block;
+    position: relative;
+    left: 28%;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 4.8175rem;
+    height: 4.8175rem;
+    text-align: center;
+    line-height: 4.8175rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Dorsa', sans-serif;
+    font-size: 2rem;
+    color: #263555;
+    margin-bottom: 13%;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.menu-item {
+    flex-basis: 27%;
+}
+
+.menu-item:nth-of-type(1),
+.menu-item:nth-of-type(2),
+.menu-item:nth-of-type(3) {
+    margin-bottom: 6%;
+}
+
+.menu-link {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-link:hover {
+    color: #263555;
+}
+
+.menu-item:nth-of-type(2) {
+    position: relative;
+}
+
+.menu-item:hover>.submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    left: -0.3125rem;
+    background-color: #f2f2f3;
+    list-style-type: none;
+    border-radius: 0.313rem;
+    padding: 0.625rem;
+    margin-top: 0.25rem;
+    text-align: center;
+}
+
+.submenu::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: -0.313rem;
+    left: calc(50% - 0.188rem);
+    border: 0.313rem solid transparent;
+    border-width: 0 0.188rem 0.313rem;
+    border-color: #f2f2f3 transparent;
+}
+
+.sub-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #263555;
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding: 1.5rem 14.125rem 1.125rem 16.0625rem;
+    }
+    .logo {
+        width: 6.25rem;
+        height: 6.25rem;
+        line-height: 6.25rem;
+        font-size: 2.725rem;
+        margin-bottom: 9%;
+    }
+    .menu-link {
+        font-size: 1.5rem;
+    }
+    .menu-item:nth-of-type(1),
+    .menu-item:nth-of-type(2),
+    .menu-item:nth-of-type(3) {
+        margin-bottom: 9%;
+    }
+    .submenu {
+        padding: 0.6781rem;
+    }
+    .sub-link {
+        font-size: 1.0625rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        padding: 50px 95px 120px;
+    }
+    .logo {
+        position: absolute;
+        width: 8.5625rem;
+        height: 8.5625rem;
+        line-height: 8.5625rem;
+        font-size: 3.75rem;
+        left: calc(50% - 4.75rem);
+        margin-bottom: 0;
+    }
+    .menu {
+        flex-wrap: nowrap;
+        padding-top: 56px;
+    }
+    .menu-item {
+        flex-basis: 7%;
+    }
+    .menu-item:nth-of-type(1),
+    .menu-item:nth-of-type(2),
+    .menu-item:nth-of-type(3) {
+        margin-bottom: 0;
+    }
+    .menu-item:nth-of-type(3) {
+        margin-right: 20%;
+    }
+    .menu-link {
+        font-size: 1.75rem;
+    }
+    .submenu {
+        padding: 0.5rem;
+    }
+    .sub-link {
+        font-size: 1.25rem;
+    }
+}
