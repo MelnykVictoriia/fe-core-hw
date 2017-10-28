@@ -117,7 +117,7 @@
 
 @media (min-width: 1024px) {
     .header {
-        padding: 50px 95px 120px;
+        padding: 3.125rem 5.9375rem 7.5rem;
     }
     .logo {
         position: absolute;
@@ -130,7 +130,7 @@
     }
     .menu {
         flex-wrap: nowrap;
-        padding-top: 56px;
+        padding-top: 3.5rem;
     }
     .menu-item {
         flex-basis: 7%;
