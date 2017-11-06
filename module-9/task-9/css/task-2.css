@@ -1,0 +1,8 @@
+.grid-item {
+    height: 200px;
+    background-color: #ffd633;
+}
+
+.grid-item:nth-of-type(2) {
+    background-color: #ff9999;
+}

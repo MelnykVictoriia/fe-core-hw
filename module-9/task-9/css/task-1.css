@@ -1,0 +1,12 @@
+.content,
+.sidebar {
+    height: 200px;
+}
+
+.content {
+    background-color: yellow;
+}
+
+.sidebar {
+    background-color: greenyellow;
+}
