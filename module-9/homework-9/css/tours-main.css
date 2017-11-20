@@ -1,0 +1,166 @@
+.content {
+    background-color: #fff;
+    padding: 3.75rem 2.125rem;
+}
+
+.tour-card-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tour-card-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    flex-basis: 49%;
+}
+
+.tour-card-desc {
+    flex-basis: 47%;
+    line-height: 1.3125rem;
+}
+
+.tour-card-title {
+    font-size: 1.05rem;
+    color: #263555;
+}
+
+.tour-card-text {
+    font-size: 0.875rem;
+    color: #4e5050;
+}
+
+.tour-price {
+    text-transform: uppercase;
+    font-size: 1.1375rem;
+    color: #38afe5;
+}
+
+.tour-card-buttom {
+    padding: 0.5rem 1rem;
+    background-color: #fbf6f9;
+    border: 0.0625rem solid #c3bcbc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    color: #000;
+}
+
+.tour-card-section:nth-last-child(-n + 2) {
+    display: none;
+}
+
+.form-wrapper {
+    justify-content: center;
+}
+
+.search-form-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+select {
+    -webkit-appearance: none;
+    background-color: #fcfafa;
+    background-image: url(http://i62.tinypic.com/15xvbd5.png);
+    background-position: 97% center;
+    background-repeat: no-repeat;
+    border: 0.125rem solid #dedbdb;
+    border-radius: 0rem;
+    color: #868f8f;
+    margin-bottom: 1.5625rem;
+    padding: 0.3125rem 0.625rem;
+    width: 100%;
+    font-size: 0.625rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    font-size: 0.625rem;
+    color: #4e5050;
+}
+
+label,
+.form-button {
+    display: block;
+}
+
+.form-title,
+.tours-title {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    color: #263555;
+}
+
+.form-sub-title {
+    text-transform: capitalize;
+    font-size: 0.625rem;
+    color: #38afe5;
+}
+
+.form-button {
+    border: 0.0625rem solid #b1aaaa;
+    background-color: #fcfafa;
+    border-radius: 0.1875rem;
+    padding: 0.25rem 0.625rem;
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) {
+    .content {
+        padding: 5.4375rem 1.9375rem;
+    }
+    .tour-card-image {
+        flex-basis: 47%;
+    }
+    .tour-card-desc {
+        flex-basis: 50%;
+        line-height: 1.125rem;
+    }
+    .tour-card-title {
+        font-size: 0.875rem;
+    }
+    .tour-card-text {
+        font-size: 0.75rem;
+        margin-bottom: 0;
+    }
+    .tour-price {
+        font-size: 0.9675rem;
+    }
+    .tour-card-buttom {
+        padding: 0.25rem 0.5rem;
+        font-size: 0.8125rem;
+    }
+    .tour-card-section:nth-last-child(-n + 2) {
+        display: flex;
+    }
+}
+
+@media (min-width: 992px) {
+    .content {
+        padding: 6.25rem 3.75rem;
+    }
+    .tour-card-image {
+        flex-basis: 48%;
+    }
+    .tour-card-desc {
+        flex-basis: 45%;
+        line-height: 0.9375rem;
+    }
+    .tour-card-title {
+        font-size: 0.75rem;
+    }
+    .tour-card-text {
+        font-size: 0.625rem;
+    }
+    .tour-price {
+        font-size: 0.8125rem;
+    }
+    .tour-card-buttom {
+        padding: 0.3125rem 0.625rem;
+        font-size: 0.6875rem;
+    }
+}

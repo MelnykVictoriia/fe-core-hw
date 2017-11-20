@@ -1,0 +1,83 @@
+.content {
+    background-color: #fff;
+    padding: 3.675rem 2.25rem;
+}
+
+.gallery-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.zoom {
+    display: none;
+    position: absolute;
+    top: calc(50% - 1rem);
+    left: calc(50% - 1rem);
+}
+
+.gallery-link:hover>.zoom {
+    display: block;
+}
+
+.gallery-item:hover {
+    filter: brightness(70%) contrast(175%);
+}
+
+.gallery-item:nth-of-type(7),
+.gallery-item:nth-of-type(8),
+.gallery-item:nth-of-type(9) {
+    display: none;
+}
+
+.title {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    margin-bottom: 9%;
+    color: #263555;
+}
+
+.mb-0 {
+    margin-bottom: 0rem;
+}
+
+.mb-1 {
+    margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+    .mb-md-0 {
+        margin-bottom: 0rem;
+    }
+    .mb-md-1 {
+        margin-bottom: 3rem;
+    }
+    .content {
+        padding: 5.375rem 2.8175rem;
+    }
+    .title {
+        margin-bottom: 7%;
+    }
+}
+
+@media (min-width: 992px) {
+    .mb-lg-0 {
+        margin-bottom: 0rem;
+    }
+    .mb-lg-1 {
+        margin-bottom: 2.5rem;
+    }
+    .content {
+        padding: 5.9375rem 3.75rem;
+    }
+    .title {
+        font-size: 2rem;
+        margin-bottom: 5%;
+    }
+    .gallery-item:nth-of-type(7),
+    .gallery-item:nth-of-type(8),
+    .gallery-item:nth-of-type(9) {
+        display: block;
+    }
+}
