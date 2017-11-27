@@ -1,0 +1,179 @@
+.header {
+    padding: 2rem 0 3.5rem;
+}
+
+.header__logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 4.8175rem;
+    height: 4.8175rem;
+    text-align: center;
+    line-height: 4.8175rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Dorsa', sans-serif;
+    font-size: 2rem;
+    color: #263555;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    width: 80%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.menu__item {
+    -ms-flex-preferred-size: 33%;
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.menu__item:nth-of-type(1),
+.menu__item:nth-of-type(2),
+.menu__item:nth-of-type(3) {
+    margin-bottom: 1rem;
+}
+
+.menu__link {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu__link:hover {
+    color: #263555;
+}
+
+.menu__item:nth-of-type(2) {
+    position: relative;
+}
+
+.menu__item:hover>.menu__submenu {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #f2f2f3;
+    list-style-type: none;
+    border-radius: 0.313rem;
+    padding: 0.625rem;
+}
+
+.submenu::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    top: -0.313rem;
+    left: calc(50% - 0.188rem);
+    border: 0.313rem solid transparent;
+    border-width: 0 0.188rem 0.313rem;
+    border-color: #f2f2f3 transparent;
+}
+
+.submenu__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #263555;
+    line-height: normal;
+}
+
+.submenu__link:hover {
+    text-decoration: none;
+    color: #263555;
+}
+
+@media (min-width: 768px) {
+    .header {
+        padding: 2rem 0;
+    }
+    .header__logo {
+        width: 6.25rem;
+        height: 6.25rem;
+        line-height: 6.25rem;
+        font-size: 2.725rem;
+    }
+    .menu__link {
+        font-size: 1.5rem;
+    }
+    .menu__item:nth-of-type(1),
+    .menu__item:nth-of-type(2),
+    .menu__item:nth-of-type(3) {
+        margin-bottom: 1rem;
+    }
+    .submenu {
+        padding: 0.6781rem;
+    }
+    .submenu__link {
+        font-size: 1.0625rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header {
+        position: relative;
+        padding: 6rem 0;
+    }
+    .header__logo {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        width: 8.5625rem;
+        height: 8.5625rem;
+        line-height: 8.5625rem;
+        font-size: 3.75rem;
+        margin-bottom: 0;
+    }
+    .menu {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    }
+    .menu__item:nth-child(3) {
+        margin-right: 160px;
+    }
+    .menu__item:nth-of-type(1),
+    .menu__item:nth-of-type(2),
+    .menu__item:nth-of-type(3) {
+        margin-bottom: 0;
+    }
+    .menu__link {
+        font-size: 1.75rem;
+    }
+    .submenu {
+        padding: 0.25rem 0.75rem;
+    }
+    .submenu__link {
+        font-size: 1.25rem;
+    }
+}

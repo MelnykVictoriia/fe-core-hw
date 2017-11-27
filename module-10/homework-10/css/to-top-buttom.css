@@ -1,0 +1,40 @@
+.to-top-buttom {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 2.25rem;
+    margin-left: calc(100% - 1.75rem);
+    display: block;
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: #38aff5;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.to-top-buttom::before {
+    position: relative;
+    top: calc(50% - 0.7rem);
+    left: calc(50% - 0.3rem);
+    content: '\22C0';
+    color: #fff;
+}
+
+.to-top-buttom:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .to-top-buttom {
+        margin-left: calc(100% - 2.1rem);
+        height: 1.625rem;
+        width: 1.625rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .to-top-buttom {
+        margin-left: calc(100% - 2.75rem);
+        height: 1.875rem;
+        width: 1.875rem;
+    }
+}

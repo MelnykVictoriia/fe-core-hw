@@ -1,0 +1,108 @@
+.content {
+    background-color: #fff;
+    padding: 3.675rem 2.25rem;
+}
+
+.gallery__title {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    color: #263555;
+    margin-bottom: 2rem;
+}
+
+.link-gallery__zoom {
+    display: none;
+    position: absolute;
+    top: calc(50% - 1rem);
+    left: calc(50% - 1rem);
+    width: 2rem;
+    height: 2rem;
+    background-image: url(../img/zoom.svg);
+    background-size: cover;
+}
+
+.link-gallery:hover>.link-gallery__zoom {
+    display: block;
+}
+
+.link-gallery__img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.link-gallery {
+    display: block;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.link-gallery:hover {
+    -webkit-filter: brightness(70%) contrast(175%);
+    filter: brightness(70%) contrast(175%);
+}
+
+.link-gallery:nth-last-of-type(-n + 3) {
+    display: none;
+}
+
+.link-gallery:nth-of-type(6) {
+    margin-bottom: 0;
+}
+
+.link-gallery__img:nth-of-type(6) {
+    margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+    .content {
+        padding: 5.375rem 2.8175rem;
+    }
+    .gallery__body {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+    .link-gallery__img {
+        margin-bottom: 0;
+    }
+    .link-gallery {
+        -ms-flex-preferred-size: 49%;
+        flex-basis: 49%;
+    }
+    .link-gallery:nth-of-type(6) {
+        margin-bottom: 2rem;
+    }
+    .link-gallery:nth-of-type(7),
+    .link-gallery:nth-of-type(8) {
+        display: block;
+    }
+    .link-gallery:nth-of-type(7),
+    .link-gallery:nth-of-type(8) {
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .content {
+        padding: 5.9375rem 3.75rem;
+    }
+    .gallery__title {
+        font-size: 2rem;
+    }
+    .link-gallery {
+        -ms-flex-preferred-size: 32%;
+        flex-basis: 32%;
+    }
+    .link-gallery:nth-last-of-type(-n + 3) {
+        display: block;
+        margin-bottom: 0;
+    }
+}
